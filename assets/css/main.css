@@ -2099,7 +2099,11 @@ input, select, textarea {
 			top: 0.25em;
 		}
 
-		.image.left, .image.right {
+		.image.left {
+			max-width: 35%;
+		}
+
+        .image.right {
 			max-width: 35%;
 		}
 
